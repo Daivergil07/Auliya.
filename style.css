@@ -78,6 +78,8 @@ html {
 }
 
 section .gambar {
+    width: 150px;
+    height: auto;
   border-radius: 10px;
 }
 
@@ -161,7 +163,7 @@ section.after {
   height: 70px;
   width: 54px;
   cursor: pointer;
-  background: url(../gambar/menu.png) no-repeat center;
+  background: url(menu.png) no-repeat center;
   background-size: 44px;
 }
 
@@ -287,4 +289,10 @@ section.after {
   100% {
     background-position: 0% 50%;
   }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
 }
